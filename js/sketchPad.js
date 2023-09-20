@@ -18,7 +18,7 @@ class SketchPad {
     this.canvas.onmousedown = (evt) => {
       const rect = this.canvas.getBoundingClientRect();
       const mouse = [evt.clientX - rect.left, evt.clientY - rect.top];
+      console.log(mouse);
     };
-    console.log(mouse);
   }
 }
